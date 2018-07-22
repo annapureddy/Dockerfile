@@ -1,3 +1,4 @@
+# docker build -t ubuntu-sidreddy . # Run this command where this file is present with the name "Dockerfile"
 FROM ubuntu:latest
 RUN apt-get update
 RUN apt-get install -y vim
